@@ -1,2 +1,17 @@
 # Vanilla-Plus-by-Cama-
 Work in progress Modpack created by Cama.
+
+# How to install:
+STEP 1: DOWNLOAD CURSEFORGE https://curseforge.overwolf.com/
+
+STEP 2: INSTALL MINECRAFT INSTANCE THROUGH CURSEFORGE
+
+STEP 3: CLICK "Create Custom Profile"
+
+STEP 4: CLICK "IMPORT"
+
+STEP 5: SELECT THIS FILE
+
+STEP 6: START UP THE GAME, DO NOT TOUCH ANY SETTINGS OTHER THAN SHADERS (pre installed). ONLY FOR BEEFY PCs
+
+STEP 7: JOIN THE SERVER AND FIND BUGS
