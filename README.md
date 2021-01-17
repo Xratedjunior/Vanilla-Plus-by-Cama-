@@ -1,4 +1,4 @@
-# Vanilla-Plus-by-Cama-
+# Vanilla Plus (By Cama)
 Work in progress Modpack created by Cama.
 
 # How to install:
