@@ -52,6 +52,14 @@ break_in_creative = false
 	#If this value is set to a negative number then no area restriction will be applied.
 	#Range: > -2147483648
 	search_around_radius = -1
+	#List the blocks that can be against the tree. If something else is adjacent then the tree won't be cut.
+	#INFO: Use adjacentStopMode to define how we stop the search for the tree.
+	adjacent_blocks_whitelisted = []
+	#What to do when an non whitelisted adjacent block is found.
+	#STOP_ALL will stop the search and nothing will be cut.
+	#STOP_BRANCH will stop the current branch only. The rest of the tree will be cut.
+	#Allowed Values: STOP_ALL, STOP_BRANCH
+	adjacent_stop_mode = "STOP_ALL"
 
 [tools]
 	#List of tools that should not be considered as tools.
