@@ -101,7 +101,7 @@
 	blacklistDimensions = ["minecraft:overworld"]
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Spawn Sea Serpent Chance" = 250
+	"Spawn Sea Serpent Chance" = 100
 	#Default sea serpent health, this is scaled to the sea serpent's particular size
 	#Range: 1.0 ~ 10000.0
 	"Sea Serpent Base Health" = 20.0

@@ -88,7 +88,7 @@
 		#Range: 0.0 ~ 10.0
 		batLeatherDropChance = 1.0
 		#Does a nametag drop when named mob dies?
-		namedMobsDropNameTag = true
+		namedMobsDropNameTag = false
 
 	#New items, blocks VanillaTweaks adds.
 	[VanillaTweaks.content]
