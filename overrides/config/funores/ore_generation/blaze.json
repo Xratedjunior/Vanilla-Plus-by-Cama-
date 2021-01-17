@@ -1,0 +1,21 @@
+{
+  "blocks": [
+    {
+      "block": "funores:blaze_ore",
+      "weight": 8
+    },
+    {
+      "weight": 3
+    }
+  ],
+  "replaces": "forge:netherrack",
+  "rarity": 20,
+  "count": 1,
+  "size": 22,
+  "min_height": 32,
+  "max_height": 84,
+  "dimensions": [
+    "minecraft:the_nether"
+  ],
+  "biomes": []
+}

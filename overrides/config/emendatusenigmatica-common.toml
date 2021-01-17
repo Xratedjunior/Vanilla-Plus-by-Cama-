@@ -1,0 +1,1391 @@
+
+#World Gen - Ore Generation Configuration
+["Coal Config"]
+
+	#Ores in The Nether use the same Values of the Overworld +/- the Modifiers
+	["Coal Config"."The Nether"]
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_spread_modifier = 0
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_count_modifier = 0
+		#Baseline Modifier [Range: -256 to 256, Default: 30]
+		#Range: -256 ~ 256
+		nether_base_modifier = 30
+		#Activate/Deactivate the Ore Gen in The Nether [Default: true]
+		generate_in_the_nether = false
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_size_modifier = 0
+
+	["Coal Config".Overworld]
+		#Average Ores per Chunk [Range: 0 to 64, Default: 20]
+		#Range: 0 ~ 64
+		count = 20
+		#Configure the ore Vein Size [Default: 17]
+		#Range: 0 ~ 64
+		vein_size = 17
+		#Baseline Y-Level [Range: 0 to 256, Default: 60]
+		#Range: 0 ~ 256
+		baseline = 60
+		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
+		generate_in_the_overworld = true
+		#Spread Amount (# of Y-Levels above and below the Baseline) [Range: 0 to 256, Default: 60]
+		#Range: 0 ~ 256
+		spread = 60
+
+	#Ores in The End use the same Values of the Overworld +/- the Modifiers
+	["Coal Config"."The End"]
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_count_modifier = 0
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_spread_modifier = 0
+		#Activate/Deactivate the Ore Gen in The End [Default: true]
+		generate_in_the_end = false
+		#Baseline Modifier [Range: -256 to 256, Default: 10]
+		#Range: -256 ~ 256
+		end_base_modifier = 10
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_size_modifier = 0
+
+["Iron Config"]
+
+	#Ores in The Nether use the same Values of the Overworld +/- the Modifiers
+	["Iron Config"."The Nether"]
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_spread_modifier = 0
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_count_modifier = 0
+		#Baseline Modifier [Range: -256 to 256, Default: 30]
+		#Range: -256 ~ 256
+		nether_base_modifier = 30
+		#Activate/Deactivate the Ore Gen in The Nether [Default: true]
+		generate_in_the_nether = false
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_size_modifier = 0
+
+	["Iron Config".Overworld]
+		#Average Ores per Chunk [Range: 0 to 64, Default: 20]
+		#Range: 0 ~ 64
+		count = 20
+		#Configure the ore Vein Size [Default: 11]
+		#Range: 0 ~ 64
+		vein_size = 11
+		#Baseline Y-Level [Range: 0 to 256, Default: 32]
+		#Range: 0 ~ 256
+		baseline = 32
+		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
+		generate_in_the_overworld = true
+		#Spread Amount (# of Y-Levels above and below the Baseline) [Range: 0 to 256, Default: 32]
+		#Range: 0 ~ 256
+		spread = 32
+
+	#Ores in The End use the same Values of the Overworld +/- the Modifiers
+	["Iron Config"."The End"]
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_count_modifier = 0
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_spread_modifier = 0
+		#Activate/Deactivate the Ore Gen in The End [Default: true]
+		generate_in_the_end = false
+		#Baseline Modifier [Range: -256 to 256, Default: 10]
+		#Range: -256 ~ 256
+		end_base_modifier = 10
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_size_modifier = 0
+
+["Gold Config"]
+
+	#Ores in The Nether use the same Values of the Overworld +/- the Modifiers
+	["Gold Config"."The Nether"]
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_spread_modifier = 0
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_count_modifier = 0
+		#Baseline Modifier [Range: -256 to 256, Default: 30]
+		#Range: -256 ~ 256
+		nether_base_modifier = 30
+		#Activate/Deactivate the Ore Gen in The Nether [Default: true]
+		generate_in_the_nether = false
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_size_modifier = 0
+
+	["Gold Config".Overworld]
+		#Average Ores per Chunk [Range: 0 to 64, Default: 7]
+		#Range: 0 ~ 64
+		count = 7
+		#Configure the ore Vein Size [Default: 8]
+		#Range: 0 ~ 64
+		vein_size = 8
+		#Baseline Y-Level [Range: 0 to 256, Default: 16]
+		#Range: 0 ~ 256
+		baseline = 16
+		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
+		generate_in_the_overworld = true
+		#Spread Amount (# of Y-Levels above and below the Baseline) [Range: 0 to 256, Default: 16]
+		#Range: 0 ~ 256
+		spread = 16
+
+	#Ores in The End use the same Values of the Overworld +/- the Modifiers
+	["Gold Config"."The End"]
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_count_modifier = 0
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_spread_modifier = 0
+		#Activate/Deactivate the Ore Gen in The End [Default: true]
+		generate_in_the_end = false
+		#Baseline Modifier [Range: -256 to 256, Default: 10]
+		#Range: -256 ~ 256
+		end_base_modifier = 10
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_size_modifier = 0
+
+["Diamond Config"]
+
+	#Ores in The Nether use the same Values of the Overworld +/- the Modifiers
+	["Diamond Config"."The Nether"]
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_spread_modifier = 0
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_count_modifier = 0
+		#Baseline Modifier [Range: -256 to 256, Default: 30]
+		#Range: -256 ~ 256
+		nether_base_modifier = 30
+		#Activate/Deactivate the Ore Gen in The Nether [Default: true]
+		generate_in_the_nether = false
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_size_modifier = 0
+
+	["Diamond Config".Overworld]
+		#Average Ores per Chunk [Range: 0 to 64, Default: 3]
+		#Range: 0 ~ 64
+		count = 3
+		#Configure the ore Vein Size [Default: 8]
+		#Range: 0 ~ 64
+		vein_size = 8
+		#Baseline Y-Level [Range: 0 to 256, Default: 8]
+		#Range: 0 ~ 256
+		baseline = 8
+		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
+		generate_in_the_overworld = true
+		#Spread Amount (# of Y-Levels above and below the Baseline) [Range: 0 to 256, Default: 8]
+		#Range: 0 ~ 256
+		spread = 8
+
+	#Ores in The End use the same Values of the Overworld +/- the Modifiers
+	["Diamond Config"."The End"]
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_count_modifier = 0
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_spread_modifier = 0
+		#Activate/Deactivate the Ore Gen in The End [Default: true]
+		generate_in_the_end = false
+		#Baseline Modifier [Range: -256 to 256, Default: 10]
+		#Range: -256 ~ 256
+		end_base_modifier = 10
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_size_modifier = 0
+
+["Emerald Config"]
+
+	#Ores in The Nether use the same Values of the Overworld +/- the Modifiers
+	["Emerald Config"."The Nether"]
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_spread_modifier = 0
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_count_modifier = 0
+		#Baseline Modifier [Range: -256 to 256, Default: 30]
+		#Range: -256 ~ 256
+		nether_base_modifier = 30
+		#Activate/Deactivate the Ore Gen in The Nether [Default: true]
+		generate_in_the_nether = false
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_size_modifier = 0
+
+	["Emerald Config".Overworld]
+		#Average Ores per Chunk [Range: 0 to 64, Default: 1]
+		#Range: 0 ~ 64
+		count = 1
+		#Configure the ore Vein Size [Default: 6]
+		#Range: 0 ~ 64
+		vein_size = 6
+		#Baseline Y-Level [Range: 0 to 256, Default: 96]
+		#Range: 0 ~ 256
+		baseline = 96
+		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
+		generate_in_the_overworld = true
+		#Spread Amount (# of Y-Levels above and below the Baseline) [Range: 0 to 256, Default: 32]
+		#Range: 0 ~ 256
+		spread = 32
+
+	#Ores in The End use the same Values of the Overworld +/- the Modifiers
+	["Emerald Config"."The End"]
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_count_modifier = 0
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_spread_modifier = 0
+		#Activate/Deactivate the Ore Gen in The End [Default: true]
+		generate_in_the_end = false
+		#Baseline Modifier [Range: -256 to 256, Default: 10]
+		#Range: -256 ~ 256
+		end_base_modifier = 10
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_size_modifier = 0
+
+["Lapis Lazuli Config"]
+
+	#Ores in The Nether use the same Values of the Overworld +/- the Modifiers
+	["Lapis Lazuli Config"."The Nether"]
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_spread_modifier = 0
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_count_modifier = 0
+		#Baseline Modifier [Range: -256 to 256, Default: 30]
+		#Range: -256 ~ 256
+		nether_base_modifier = 30
+		#Activate/Deactivate the Ore Gen in The Nether [Default: true]
+		generate_in_the_nether = false
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_size_modifier = 0
+
+	["Lapis Lazuli Config".Overworld]
+		#Average Ores per Chunk [Range: 0 to 64, Default: 4]
+		#Range: 0 ~ 64
+		count = 4
+		#Configure the ore Vein Size [Default: 7]
+		#Range: 0 ~ 64
+		vein_size = 7
+		#Baseline Y-Level [Range: 0 to 256, Default: 8]
+		#Range: 0 ~ 256
+		baseline = 8
+		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
+		generate_in_the_overworld = true
+		#Spread Amount (# of Y-Levels above and below the Baseline) [Range: 0 to 256, Default: 8]
+		#Range: 0 ~ 256
+		spread = 8
+
+	#Ores in The End use the same Values of the Overworld +/- the Modifiers
+	["Lapis Lazuli Config"."The End"]
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_count_modifier = 0
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_spread_modifier = 0
+		#Activate/Deactivate the Ore Gen in The End [Default: true]
+		generate_in_the_end = false
+		#Baseline Modifier [Range: -256 to 256, Default: 10]
+		#Range: -256 ~ 256
+		end_base_modifier = 10
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_size_modifier = 0
+
+["Redstone Config"]
+
+	#Ores in The Nether use the same Values of the Overworld +/- the Modifiers
+	["Redstone Config"."The Nether"]
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_spread_modifier = 0
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_count_modifier = 0
+		#Baseline Modifier [Range: -256 to 256, Default: 30]
+		#Range: -256 ~ 256
+		nether_base_modifier = 30
+		#Activate/Deactivate the Ore Gen in The Nether [Default: true]
+		generate_in_the_nether = false
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_size_modifier = 0
+
+	["Redstone Config".Overworld]
+		#Average Ores per Chunk [Range: 0 to 64, Default: 9]
+		#Range: 0 ~ 64
+		count = 9
+		#Configure the ore Vein Size [Default: 14]
+		#Range: 0 ~ 64
+		vein_size = 14
+		#Baseline Y-Level [Range: 0 to 256, Default: 8]
+		#Range: 0 ~ 256
+		baseline = 8
+		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
+		generate_in_the_overworld = true
+		#Spread Amount (# of Y-Levels above and below the Baseline) [Range: 0 to 256, Default: 8]
+		#Range: 0 ~ 256
+		spread = 8
+
+	#Ores in The End use the same Values of the Overworld +/- the Modifiers
+	["Redstone Config"."The End"]
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_count_modifier = 0
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_spread_modifier = 0
+		#Activate/Deactivate the Ore Gen in The End [Default: true]
+		generate_in_the_end = false
+		#Baseline Modifier [Range: -256 to 256, Default: 10]
+		#Range: -256 ~ 256
+		end_base_modifier = 10
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_size_modifier = 0
+
+["Copper Config"]
+
+	#Ores in The Nether use the same Values of the Overworld +/- the Modifiers
+	["Copper Config"."The Nether"]
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_spread_modifier = 0
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_count_modifier = 0
+		#Baseline Modifier [Range: -256 to 256, Default: 30]
+		#Range: -256 ~ 256
+		nether_base_modifier = 30
+		#Activate/Deactivate the Ore Gen in The Nether [Default: true]
+		generate_in_the_nether = false
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_size_modifier = 0
+
+	["Copper Config".Overworld]
+		#Average Ores per Chunk [Range: 0 to 64, Default: 20]
+		#Range: 0 ~ 64
+		count = 20
+		#Configure the ore Vein Size [Default: 7]
+		#Range: 0 ~ 64
+		vein_size = 7
+		#Baseline Y-Level [Range: 0 to 256, Default: 52]
+		#Range: 0 ~ 256
+		baseline = 52
+		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
+		generate_in_the_overworld = true
+		#Spread Amount (# of Y-Levels above and below the Baseline) [Range: 0 to 256, Default: 8]
+		#Range: 0 ~ 256
+		spread = 8
+
+	#Ores in The End use the same Values of the Overworld +/- the Modifiers
+	["Copper Config"."The End"]
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_count_modifier = 0
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_spread_modifier = 0
+		#Activate/Deactivate the Ore Gen in The End [Default: true]
+		generate_in_the_end = false
+		#Baseline Modifier [Range: -256 to 256, Default: 10]
+		#Range: -256 ~ 256
+		end_base_modifier = 10
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_size_modifier = 0
+
+["Aluminum Config"]
+
+	#Ores in The Nether use the same Values of the Overworld +/- the Modifiers
+	["Aluminum Config"."The Nether"]
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_spread_modifier = 0
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_count_modifier = 0
+		#Baseline Modifier [Range: -256 to 256, Default: 30]
+		#Range: -256 ~ 256
+		nether_base_modifier = 30
+		#Activate/Deactivate the Ore Gen in The Nether [Default: true]
+		generate_in_the_nether = false
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_size_modifier = 0
+
+	["Aluminum Config".Overworld]
+		#Average Ores per Chunk [Range: 0 to 64, Default: 8]
+		#Range: 0 ~ 64
+		count = 8
+		#Configure the ore Vein Size [Default: 5]
+		#Range: 0 ~ 64
+		vein_size = 5
+		#Baseline Y-Level [Range: 0 to 256, Default: 60]
+		#Range: 0 ~ 256
+		baseline = 60
+		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
+		generate_in_the_overworld = true
+		#Spread Amount (# of Y-Levels above and below the Baseline) [Range: 0 to 256, Default: 10]
+		#Range: 0 ~ 256
+		spread = 10
+
+	#Ores in The End use the same Values of the Overworld +/- the Modifiers
+	["Aluminum Config"."The End"]
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_count_modifier = 0
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_spread_modifier = 0
+		#Activate/Deactivate the Ore Gen in The End [Default: true]
+		generate_in_the_end = false
+		#Baseline Modifier [Range: -256 to 256, Default: 10]
+		#Range: -256 ~ 256
+		end_base_modifier = 10
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_size_modifier = 0
+
+["Silver Config"]
+
+	#Ores in The Nether use the same Values of the Overworld +/- the Modifiers
+	["Silver Config"."The Nether"]
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_spread_modifier = 0
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_count_modifier = 0
+		#Baseline Modifier [Range: -256 to 256, Default: 30]
+		#Range: -256 ~ 256
+		nether_base_modifier = 30
+		#Activate/Deactivate the Ore Gen in The Nether [Default: true]
+		generate_in_the_nether = false
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_size_modifier = 0
+
+	["Silver Config".Overworld]
+		#Average Ores per Chunk [Range: 0 to 64, Default: 8]
+		#Range: 0 ~ 64
+		count = 8
+		#Configure the ore Vein Size [Default: 5]
+		#Range: 0 ~ 64
+		vein_size = 5
+		#Baseline Y-Level [Range: 0 to 256, Default: 34]
+		#Range: 0 ~ 256
+		baseline = 34
+		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
+		generate_in_the_overworld = true
+		#Spread Amount (# of Y-Levels above and below the Baseline) [Range: 0 to 256, Default: 4]
+		#Range: 0 ~ 256
+		spread = 4
+
+	#Ores in The End use the same Values of the Overworld +/- the Modifiers
+	["Silver Config"."The End"]
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_count_modifier = 0
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_spread_modifier = 0
+		#Activate/Deactivate the Ore Gen in The End [Default: true]
+		generate_in_the_end = false
+		#Baseline Modifier [Range: -256 to 256, Default: 10]
+		#Range: -256 ~ 256
+		end_base_modifier = 10
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_size_modifier = 0
+
+["Lead Config"]
+
+	#Ores in The Nether use the same Values of the Overworld +/- the Modifiers
+	["Lead Config"."The Nether"]
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_spread_modifier = 0
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_count_modifier = 0
+		#Baseline Modifier [Range: -256 to 256, Default: 30]
+		#Range: -256 ~ 256
+		nether_base_modifier = 30
+		#Activate/Deactivate the Ore Gen in The Nether [Default: true]
+		generate_in_the_nether = false
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_size_modifier = 0
+
+	["Lead Config".Overworld]
+		#Average Ores per Chunk [Range: 0 to 64, Default: 8]
+		#Range: 0 ~ 64
+		count = 8
+		#Configure the ore Vein Size [Default: 5]
+		#Range: 0 ~ 64
+		vein_size = 5
+		#Baseline Y-Level [Range: 0 to 256, Default: 36]
+		#Range: 0 ~ 256
+		baseline = 36
+		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
+		generate_in_the_overworld = true
+		#Spread Amount (# of Y-Levels above and below the Baseline) [Range: 0 to 256, Default: 4]
+		#Range: 0 ~ 256
+		spread = 4
+
+	#Ores in The End use the same Values of the Overworld +/- the Modifiers
+	["Lead Config"."The End"]
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_count_modifier = 0
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_spread_modifier = 0
+		#Activate/Deactivate the Ore Gen in The End [Default: true]
+		generate_in_the_end = false
+		#Baseline Modifier [Range: -256 to 256, Default: 10]
+		#Range: -256 ~ 256
+		end_base_modifier = 10
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_size_modifier = 0
+
+["Nickel Config"]
+
+	#Ores in The Nether use the same Values of the Overworld +/- the Modifiers
+	["Nickel Config"."The Nether"]
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_spread_modifier = 0
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_count_modifier = 0
+		#Baseline Modifier [Range: -256 to 256, Default: 30]
+		#Range: -256 ~ 256
+		nether_base_modifier = 30
+		#Activate/Deactivate the Ore Gen in The Nether [Default: true]
+		generate_in_the_nether = false
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_size_modifier = 0
+
+	["Nickel Config".Overworld]
+		#Average Ores per Chunk [Range: 0 to 64, Default: 8]
+		#Range: 0 ~ 64
+		count = 8
+		#Configure the ore Vein Size [Default: 4]
+		#Range: 0 ~ 64
+		vein_size = 4
+		#Baseline Y-Level [Range: 0 to 256, Default: 32]
+		#Range: 0 ~ 256
+		baseline = 32
+		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
+		generate_in_the_overworld = true
+		#Spread Amount (# of Y-Levels above and below the Baseline) [Range: 0 to 256, Default: 8]
+		#Range: 0 ~ 256
+		spread = 8
+
+	#Ores in The End use the same Values of the Overworld +/- the Modifiers
+	["Nickel Config"."The End"]
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_count_modifier = 0
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_spread_modifier = 0
+		#Activate/Deactivate the Ore Gen in The End [Default: true]
+		generate_in_the_end = false
+		#Baseline Modifier [Range: -256 to 256, Default: 10]
+		#Range: -256 ~ 256
+		end_base_modifier = 10
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_size_modifier = 0
+
+["Uranium Config"]
+
+	#Ores in The Nether use the same Values of the Overworld +/- the Modifiers
+	["Uranium Config"."The Nether"]
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_spread_modifier = 0
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_count_modifier = 0
+		#Baseline Modifier [Range: -256 to 256, Default: 30]
+		#Range: -256 ~ 256
+		nether_base_modifier = 30
+		#Activate/Deactivate the Ore Gen in The Nether [Default: true]
+		generate_in_the_nether = false
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_size_modifier = 0
+
+	["Uranium Config".Overworld]
+		#Average Ores per Chunk [Range: 0 to 64, Default: 6]
+		#Range: 0 ~ 64
+		count = 6
+		#Configure the ore Vein Size [Default: 6]
+		#Range: 0 ~ 64
+		vein_size = 6
+		#Baseline Y-Level [Range: 0 to 256, Default: 12]
+		#Range: 0 ~ 256
+		baseline = 12
+		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
+		generate_in_the_overworld = true
+		#Spread Amount (# of Y-Levels above and below the Baseline) [Range: 0 to 256, Default: 8]
+		#Range: 0 ~ 256
+		spread = 8
+
+	#Ores in The End use the same Values of the Overworld +/- the Modifiers
+	["Uranium Config"."The End"]
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_count_modifier = 0
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_spread_modifier = 0
+		#Activate/Deactivate the Ore Gen in The End [Default: true]
+		generate_in_the_end = false
+		#Baseline Modifier [Range: -256 to 256, Default: 10]
+		#Range: -256 ~ 256
+		end_base_modifier = 10
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_size_modifier = 0
+
+["Osmium Config"]
+
+	#Ores in The Nether use the same Values of the Overworld +/- the Modifiers
+	["Osmium Config"."The Nether"]
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_spread_modifier = 0
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_count_modifier = 0
+		#Baseline Modifier [Range: -256 to 256, Default: 30]
+		#Range: -256 ~ 256
+		nether_base_modifier = 30
+		#Activate/Deactivate the Ore Gen in The Nether [Default: true]
+		generate_in_the_nether = false
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_size_modifier = 0
+
+	["Osmium Config".Overworld]
+		#Average Ores per Chunk [Range: 0 to 64, Default: 17]
+		#Range: 0 ~ 64
+		count = 17
+		#Configure the ore Vein Size [Default: 6]
+		#Range: 0 ~ 64
+		vein_size = 6
+		#Baseline Y-Level [Range: 0 to 256, Default: 32]
+		#Range: 0 ~ 256
+		baseline = 32
+		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
+		generate_in_the_overworld = true
+		#Spread Amount (# of Y-Levels above and below the Baseline) [Range: 0 to 256, Default: 12]
+		#Range: 0 ~ 256
+		spread = 12
+
+	#Ores in The End use the same Values of the Overworld +/- the Modifiers
+	["Osmium Config"."The End"]
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_count_modifier = 0
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_spread_modifier = 0
+		#Activate/Deactivate the Ore Gen in The End [Default: true]
+		generate_in_the_end = false
+		#Baseline Modifier [Range: -256 to 256, Default: 10]
+		#Range: -256 ~ 256
+		end_base_modifier = 10
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_size_modifier = 0
+
+["Tin Config"]
+
+	#Ores in The Nether use the same Values of the Overworld +/- the Modifiers
+	["Tin Config"."The Nether"]
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_spread_modifier = 0
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_count_modifier = 0
+		#Baseline Modifier [Range: -256 to 256, Default: 30]
+		#Range: -256 ~ 256
+		nether_base_modifier = 30
+		#Activate/Deactivate the Ore Gen in The Nether [Default: true]
+		generate_in_the_nether = false
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_size_modifier = 0
+
+	["Tin Config".Overworld]
+		#Average Ores per Chunk [Range: 0 to 64, Default: 20]
+		#Range: 0 ~ 64
+		count = 20
+		#Configure the ore Vein Size [Default: 7]
+		#Range: 0 ~ 64
+		vein_size = 7
+		#Baseline Y-Level [Range: 0 to 256, Default: 47]
+		#Range: 0 ~ 256
+		baseline = 47
+		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
+		generate_in_the_overworld = true
+		#Spread Amount (# of Y-Levels above and below the Baseline) [Range: 0 to 256, Default: 7]
+		#Range: 0 ~ 256
+		spread = 7
+
+	#Ores in The End use the same Values of the Overworld +/- the Modifiers
+	["Tin Config"."The End"]
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_count_modifier = 0
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_spread_modifier = 0
+		#Activate/Deactivate the Ore Gen in The End [Default: true]
+		generate_in_the_end = false
+		#Baseline Modifier [Range: -256 to 256, Default: 10]
+		#Range: -256 ~ 256
+		end_base_modifier = 10
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_size_modifier = 0
+
+["Zinc Config"]
+
+	#Ores in The Nether use the same Values of the Overworld +/- the Modifiers
+	["Zinc Config"."The Nether"]
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_spread_modifier = 0
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_count_modifier = 0
+		#Baseline Modifier [Range: -256 to 256, Default: 30]
+		#Range: -256 ~ 256
+		nether_base_modifier = 30
+		#Activate/Deactivate the Ore Gen in The Nether [Default: true]
+		generate_in_the_nether = false
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_size_modifier = 0
+
+	["Zinc Config".Overworld]
+		#Average Ores per Chunk [Range: 0 to 64, Default: 9]
+		#Range: 0 ~ 64
+		count = 9
+		#Configure the ore Vein Size [Default: 5]
+		#Range: 0 ~ 64
+		vein_size = 5
+		#Baseline Y-Level [Range: 0 to 256, Default: 42]
+		#Range: 0 ~ 256
+		baseline = 42
+		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
+		generate_in_the_overworld = true
+		#Spread Amount (# of Y-Levels above and below the Baseline) [Range: 0 to 256, Default: 8]
+		#Range: 0 ~ 256
+		spread = 8
+
+	#Ores in The End use the same Values of the Overworld +/- the Modifiers
+	["Zinc Config"."The End"]
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_count_modifier = 0
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_spread_modifier = 0
+		#Activate/Deactivate the Ore Gen in The End [Default: true]
+		generate_in_the_end = false
+		#Baseline Modifier [Range: -256 to 256, Default: 10]
+		#Range: -256 ~ 256
+		end_base_modifier = 10
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_size_modifier = 0
+
+["Certus Quartz Config"]
+
+	#Ores in The Nether use the same Values of the Overworld +/- the Modifiers
+	["Certus Quartz Config"."The Nether"]
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_spread_modifier = 0
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_count_modifier = 0
+		#Baseline Modifier [Range: -256 to 256, Default: 30]
+		#Range: -256 ~ 256
+		nether_base_modifier = 30
+		#Activate/Deactivate the Ore Gen in The Nether [Default: true]
+		generate_in_the_nether = false
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_size_modifier = 0
+
+	["Certus Quartz Config".Overworld]
+		#Average Ores per Chunk [Range: 0 to 64, Default: 16]
+		#Range: 0 ~ 64
+		count = 16
+		#Configure the ore Vein Size [Default: 8]
+		#Range: 0 ~ 64
+		vein_size = 8
+		#Baseline Y-Level [Range: 0 to 256, Default: 32]
+		#Range: 0 ~ 256
+		baseline = 32
+		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
+		generate_in_the_overworld = true
+		#Spread Amount (# of Y-Levels above and below the Baseline) [Range: 0 to 256, Default: 32]
+		#Range: 0 ~ 256
+		spread = 32
+
+	#Ores in The End use the same Values of the Overworld +/- the Modifiers
+	["Certus Quartz Config"."The End"]
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_count_modifier = 0
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_spread_modifier = 0
+		#Activate/Deactivate the Ore Gen in The End [Default: true]
+		generate_in_the_end = false
+		#Baseline Modifier [Range: -256 to 256, Default: 10]
+		#Range: -256 ~ 256
+		end_base_modifier = 10
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_size_modifier = 0
+
+["Charged Certus Quartz Config"]
+
+	#Ores in The Nether use the same Values of the Overworld +/- the Modifiers
+	["Charged Certus Quartz Config"."The Nether"]
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_spread_modifier = 0
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_count_modifier = 0
+		#Baseline Modifier [Range: -256 to 256, Default: 30]
+		#Range: -256 ~ 256
+		nether_base_modifier = 30
+		#Activate/Deactivate the Ore Gen in The Nether [Default: true]
+		generate_in_the_nether = false
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_size_modifier = 0
+
+	["Charged Certus Quartz Config".Overworld]
+		#Average Ores per Chunk [Range: 0 to 64, Default: 8]
+		#Range: 0 ~ 64
+		count = 8
+		#Configure the ore Vein Size [Default: 4]
+		#Range: 0 ~ 64
+		vein_size = 4
+		#Baseline Y-Level [Range: 0 to 256, Default: 16]
+		#Range: 0 ~ 256
+		baseline = 16
+		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
+		generate_in_the_overworld = true
+		#Spread Amount (# of Y-Levels above and below the Baseline) [Range: 0 to 256, Default: 16]
+		#Range: 0 ~ 256
+		spread = 16
+
+	#Ores in The End use the same Values of the Overworld +/- the Modifiers
+	["Charged Certus Quartz Config"."The End"]
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_count_modifier = 0
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_spread_modifier = 0
+		#Activate/Deactivate the Ore Gen in The End [Default: true]
+		generate_in_the_end = false
+		#Baseline Modifier [Range: -256 to 256, Default: 10]
+		#Range: -256 ~ 256
+		end_base_modifier = 10
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_size_modifier = 0
+
+["Fluorite Config"]
+
+	#Ores in The Nether use the same Values of the Overworld +/- the Modifiers
+	["Fluorite Config"."The Nether"]
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_spread_modifier = 0
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_count_modifier = 0
+		#Baseline Modifier [Range: -256 to 256, Default: 30]
+		#Range: -256 ~ 256
+		nether_base_modifier = 30
+		#Activate/Deactivate the Ore Gen in The Nether [Default: true]
+		generate_in_the_nether = false
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_size_modifier = 0
+
+	["Fluorite Config".Overworld]
+		#Average Ores per Chunk [Range: 0 to 64, Default: 6]
+		#Range: 0 ~ 64
+		count = 6
+		#Configure the ore Vein Size [Default: 12]
+		#Range: 0 ~ 64
+		vein_size = 12
+		#Baseline Y-Level [Range: 0 to 256, Default: 16]
+		#Range: 0 ~ 256
+		baseline = 16
+		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
+		generate_in_the_overworld = true
+		#Spread Amount (# of Y-Levels above and below the Baseline) [Range: 0 to 256, Default: 16]
+		#Range: 0 ~ 256
+		spread = 16
+
+	#Ores in The End use the same Values of the Overworld +/- the Modifiers
+	["Fluorite Config"."The End"]
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_count_modifier = 0
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_spread_modifier = 0
+		#Activate/Deactivate the Ore Gen in The End [Default: true]
+		generate_in_the_end = false
+		#Baseline Modifier [Range: -256 to 256, Default: 10]
+		#Range: -256 ~ 256
+		end_base_modifier = 10
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_size_modifier = 0
+
+["Bitumen Config"]
+
+	#Ores in The Nether use the same Values of the Overworld +/- the Modifiers
+	["Bitumen Config"."The Nether"]
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_spread_modifier = 0
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_count_modifier = 0
+		#Baseline Modifier [Range: -256 to 256, Default: 30]
+		#Range: -256 ~ 256
+		nether_base_modifier = 30
+		#Activate/Deactivate the Ore Gen in The Nether [Default: true]
+		generate_in_the_nether = false
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_size_modifier = 0
+
+	["Bitumen Config".Overworld]
+		#Average Ores per Chunk [Range: 0 to 64, Default: 2]
+		#Range: 0 ~ 64
+		count = 2
+		#Configure the ore Vein Size [Default: 18]
+		#Range: 0 ~ 64
+		vein_size = 18
+		#Baseline Y-Level [Range: 0 to 256, Default: 100]
+		#Range: 0 ~ 256
+		baseline = 100
+		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
+		generate_in_the_overworld = true
+		#Spread Amount (# of Y-Levels above and below the Baseline) [Range: 0 to 256, Default: 60]
+		#Range: 0 ~ 256
+		spread = 60
+
+	#Ores in The End use the same Values of the Overworld +/- the Modifiers
+	["Bitumen Config"."The End"]
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_count_modifier = 0
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_spread_modifier = 0
+		#Activate/Deactivate the Ore Gen in The End [Default: true]
+		generate_in_the_end = false
+		#Baseline Modifier [Range: -256 to 256, Default: 10]
+		#Range: -256 ~ 256
+		end_base_modifier = 10
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_size_modifier = 0
+
+["Cinnabar Config"]
+
+	#Ores in The Nether use the same Values of the Overworld +/- the Modifiers
+	["Cinnabar Config"."The Nether"]
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_spread_modifier = 0
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_count_modifier = 0
+		#Baseline Modifier [Range: -256 to 256, Default: 30]
+		#Range: -256 ~ 256
+		nether_base_modifier = 30
+		#Activate/Deactivate the Ore Gen in The Nether [Default: true]
+		generate_in_the_nether = false
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_size_modifier = 0
+
+	["Cinnabar Config".Overworld]
+		#Average Ores per Chunk [Range: 0 to 64, Default: 4]
+		#Range: 0 ~ 64
+		count = 4
+		#Configure the ore Vein Size [Default: 5]
+		#Range: 0 ~ 64
+		vein_size = 5
+		#Baseline Y-Level [Range: 0 to 256, Default: 10]
+		#Range: 0 ~ 256
+		baseline = 10
+		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
+		generate_in_the_overworld = true
+		#Spread Amount (# of Y-Levels above and below the Baseline) [Range: 0 to 256, Default: 6]
+		#Range: 0 ~ 256
+		spread = 6
+
+	#Ores in The End use the same Values of the Overworld +/- the Modifiers
+	["Cinnabar Config"."The End"]
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_count_modifier = 0
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_spread_modifier = 0
+		#Activate/Deactivate the Ore Gen in The End [Default: true]
+		generate_in_the_end = false
+		#Baseline Modifier [Range: -256 to 256, Default: 10]
+		#Range: -256 ~ 256
+		end_base_modifier = 10
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_size_modifier = 0
+
+["Apatite Config"]
+
+	#Ores in The Nether use the same Values of the Overworld +/- the Modifiers
+	["Apatite Config"."The Nether"]
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_spread_modifier = 0
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_count_modifier = 0
+		#Baseline Modifier [Range: -256 to 256, Default: 30]
+		#Range: -256 ~ 256
+		nether_base_modifier = 30
+		#Activate/Deactivate the Ore Gen in The Nether [Default: true]
+		generate_in_the_nether = false
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_size_modifier = 0
+
+	["Apatite Config".Overworld]
+		#Average Ores per Chunk [Range: 0 to 64, Default: 2]
+		#Range: 0 ~ 64
+		count = 2
+		#Configure the ore Vein Size [Default: 22]
+		#Range: 0 ~ 64
+		vein_size = 22
+		#Baseline Y-Level [Range: 0 to 256, Default: 96]
+		#Range: 0 ~ 256
+		baseline = 96
+		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
+		generate_in_the_overworld = true
+		#Spread Amount (# of Y-Levels above and below the Baseline) [Range: 0 to 256, Default: 32]
+		#Range: 0 ~ 256
+		spread = 32
+
+	#Ores in The End use the same Values of the Overworld +/- the Modifiers
+	["Apatite Config"."The End"]
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_count_modifier = 0
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_spread_modifier = 0
+		#Activate/Deactivate the Ore Gen in The End [Default: true]
+		generate_in_the_end = false
+		#Baseline Modifier [Range: -256 to 256, Default: 10]
+		#Range: -256 ~ 256
+		end_base_modifier = 10
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_size_modifier = 0
+
+["Sulfur Config"]
+
+	#Ores in The Nether use the same Values of the Overworld +/- the Modifiers
+	["Sulfur Config"."The Nether"]
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_spread_modifier = 0
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_count_modifier = 0
+		#Baseline Modifier [Range: -256 to 256, Default: 30]
+		#Range: -256 ~ 256
+		nether_base_modifier = 30
+		#Activate/Deactivate the Ore Gen in The Nether [Default: true]
+		generate_in_the_nether = false
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_size_modifier = 0
+
+	["Sulfur Config".Overworld]
+		#Average Ores per Chunk [Range: 0 to 64, Default: 3]
+		#Range: 0 ~ 64
+		count = 3
+		#Configure the ore Vein Size [Default: 7]
+		#Range: 0 ~ 64
+		vein_size = 7
+		#Baseline Y-Level [Range: 0 to 256, Default: 8]
+		#Range: 0 ~ 256
+		baseline = 8
+		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
+		generate_in_the_overworld = true
+		#Spread Amount (# of Y-Levels above and below the Baseline) [Range: 0 to 256, Default: 8]
+		#Range: 0 ~ 256
+		spread = 8
+
+	#Ores in The End use the same Values of the Overworld +/- the Modifiers
+	["Sulfur Config"."The End"]
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_count_modifier = 0
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_spread_modifier = 0
+		#Activate/Deactivate the Ore Gen in The End [Default: true]
+		generate_in_the_end = false
+		#Baseline Modifier [Range: -256 to 256, Default: 10]
+		#Range: -256 ~ 256
+		end_base_modifier = 10
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_size_modifier = 0
+
+["Potassium Nitrate Config"]
+
+	#Ores in The Nether use the same Values of the Overworld +/- the Modifiers
+	["Potassium Nitrate Config"."The Nether"]
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_spread_modifier = 0
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_count_modifier = 0
+		#Baseline Modifier [Range: -256 to 256, Default: 30]
+		#Range: -256 ~ 256
+		nether_base_modifier = 30
+		#Activate/Deactivate the Ore Gen in The Nether [Default: true]
+		generate_in_the_nether = false
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_size_modifier = 0
+
+	["Potassium Nitrate Config".Overworld]
+		#Average Ores per Chunk [Range: 0 to 64, Default: 4]
+		#Range: 0 ~ 64
+		count = 4
+		#Configure the ore Vein Size [Default: 5]
+		#Range: 0 ~ 64
+		vein_size = 5
+		#Baseline Y-Level [Range: 0 to 256, Default: 25]
+		#Range: 0 ~ 256
+		baseline = 25
+		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
+		generate_in_the_overworld = true
+		#Spread Amount (# of Y-Levels above and below the Baseline) [Range: 0 to 256, Default: 7]
+		#Range: 0 ~ 256
+		spread = 7
+
+	#Ores in The End use the same Values of the Overworld +/- the Modifiers
+	["Potassium Nitrate Config"."The End"]
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_count_modifier = 0
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_spread_modifier = 0
+		#Activate/Deactivate the Ore Gen in The End [Default: true]
+		generate_in_the_end = false
+		#Baseline Modifier [Range: -256 to 256, Default: 10]
+		#Range: -256 ~ 256
+		end_base_modifier = 10
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_size_modifier = 0
+
+["Arcane Config"]
+
+	#Ores in The Nether use the same Values of the Overworld +/- the Modifiers
+	["Arcane Config"."The Nether"]
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_spread_modifier = 0
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_count_modifier = 0
+		#Baseline Modifier [Range: -256 to 256, Default: 30]
+		#Range: -256 ~ 256
+		nether_base_modifier = 30
+		#Activate/Deactivate the Ore Gen in The Nether [Default: true]
+		generate_in_the_nether = false
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_size_modifier = 0
+
+	["Arcane Config".Overworld]
+		#Average Ores per Chunk [Range: 0 to 64, Default: 5]
+		#Range: 0 ~ 64
+		count = 5
+		#Configure the ore Vein Size [Default: 6]
+		#Range: 0 ~ 64
+		vein_size = 6
+		#Baseline Y-Level [Range: 0 to 256, Default: 33]
+		#Range: 0 ~ 256
+		baseline = 33
+		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
+		generate_in_the_overworld = true
+		#Spread Amount (# of Y-Levels above and below the Baseline) [Range: 0 to 256, Default: 13]
+		#Range: 0 ~ 256
+		spread = 13
+
+	#Ores in The End use the same Values of the Overworld +/- the Modifiers
+	["Arcane Config"."The End"]
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_count_modifier = 0
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_spread_modifier = 0
+		#Activate/Deactivate the Ore Gen in The End [Default: true]
+		generate_in_the_end = false
+		#Baseline Modifier [Range: -256 to 256, Default: 10]
+		#Range: -256 ~ 256
+		end_base_modifier = 10
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_size_modifier = 0
+
+["Dimensional Shard Config"]
+
+	#Ores in The Nether use the same Values of the Overworld +/- the Modifiers
+	["Dimensional Shard Config"."The Nether"]
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_spread_modifier = 0
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_count_modifier = 0
+		#Baseline Modifier [Range: -256 to 256, Default: 30]
+		#Range: -256 ~ 256
+		nether_base_modifier = 30
+		#Activate/Deactivate the Ore Gen in The Nether [Default: true]
+		generate_in_the_nether = false
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		nether_size_modifier = 0
+
+	["Dimensional Shard Config".Overworld]
+		#Average Ores per Chunk [Range: 0 to 64, Default: 8]
+		#Range: 0 ~ 64
+		count = 8
+		#Configure the ore Vein Size [Default: 8]
+		#Range: 0 ~ 64
+		vein_size = 8
+		#Baseline Y-Level [Range: 0 to 256, Default: 21]
+		#Range: 0 ~ 256
+		baseline = 21
+		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
+		generate_in_the_overworld = true
+		#Spread Amount (# of Y-Levels above and below the Baseline) [Range: 0 to 256, Default: 19]
+		#Range: 0 ~ 256
+		spread = 19
+
+	#Ores in The End use the same Values of the Overworld +/- the Modifiers
+	["Dimensional Shard Config"."The End"]
+		#Average Ores per Chunk Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_count_modifier = 0
+		#Spread Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_spread_modifier = 0
+		#Activate/Deactivate the Ore Gen in The End [Default: true]
+		generate_in_the_end = false
+		#Baseline Modifier [Range: -256 to 256, Default: 10]
+		#Range: -256 ~ 256
+		end_base_modifier = 10
+		#Ore Vein Size Modifier [Range: -256 to 256, Default: 0]
+		#Range: -256 ~ 256
+		end_size_modifier = 0
+
+#World Gen - Ore Generation on Strata Stone Type
+["Stratum Config: minecraft_stone"]
+	active = true
+
+["Stratum Config: minecraft_andesite"]
+	active = true
+
+["Stratum Config: minecraft_netherrack"]
+	active = true
+
+["Stratum Config: minecraft_blackstone"]
+	active = true
+
+["Stratum Config: minecraft_end_stone"]
+	active = true
+
+["Stratum Config: create_gabbro"]
+	active = true
+
+["Stratum Config: create_limestone"]
+	active = true
+
+["Stratum Config: create_scoria"]
+	active = true
+
+["Stratum Config: create_weathered_limestone"]
+	active = true
+
+["Stratum Config: quark_jasper"]
+	active = true
+
+["Stratum Config: quark_marble"]
+	active = true
+
+["Stratum Config: quark_slate"]
+	active = true
+

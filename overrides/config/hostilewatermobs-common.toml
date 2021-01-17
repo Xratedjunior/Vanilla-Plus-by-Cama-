@@ -1,0 +1,35 @@
+
+["Hostile Water Mobs"]
+	#Debug Level: 0 = Off, 1 = Log, 2 = Chat+Log
+	#Range: 0 ~ 2
+	debugLevel = 0
+	#riverGuardianPreysOnVillagerChildren = true
+	riverGuardianPreysOnVillagerChildren = true
+	#riverGuardianSpawnChance
+	#Range: 0 ~ 100
+	riverGuardianSpawnChance = 6
+	#riverGuardianSpawnCap
+	#Range: 1 ~ 100
+	riverGuardianSpawnCap = 37
+	#riverGuardianSoundRange
+	#Range: 1 ~ 24
+	riverGuardianSoundRange = 15
+	#slipperyBiterSpawnChance
+	#Range: 1 ~ 100
+	slipperyBiterSpawnChance = 6
+	#slipperyBiterSpawnCap
+	#Range: 0 ~ 100
+	slipperyBiterSpawnCap = 21
+	#codSpawnBoost
+	#Range: 0 ~ 100
+	codSpawnBoost = 15
+	#salmonSpawnBoost
+	#Range: 0 ~ 100
+	salmonSpawnBoost = 15
+	#squidSpawnBoost
+	#Range: 0 ~ 100
+	squidSpawnBoost = 10
+	#dolphinSpawnBoost
+	#Range: 0 ~ 100
+	dolphinSpawnBoost = 10
+

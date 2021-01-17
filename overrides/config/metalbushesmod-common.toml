@@ -1,0 +1,25 @@
+
+["World Gen"]
+	"Allow Bush World Generation" = true
+
+#Make sure World Generation is on true
+["World Gen Specific"]
+	"Diamond Bush Gen" = true
+	"Iron Bush Gen" = true
+	"Experience Bush Gen" = true
+	"Gold Bush Gen" = true
+	"Coal Bush Gen" = true
+	"Redstone Bush Gen" = true
+
+["Copper Bush"]
+	#Active with: Mekanism
+	"Copper Bush Gen" = true
+
+["Osmium Bush"]
+	#Active with: Mekanism
+	"Osmium Bush Gen" = true
+
+["Tin Bush"]
+	#Active with: Mekanism
+	"Tin Bush Gen" = true
+
